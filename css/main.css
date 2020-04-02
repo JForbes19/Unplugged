@@ -107,13 +107,10 @@ header, footer {
     flex-flow: row wrap;
 }
 
-header {
-    
-}
 
 header .content-wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center; 
     flex-flow: row wrap;
 }
@@ -131,17 +128,16 @@ header nav {
 
 header nav ul {
     display: flex;
-    justify-content: center;
-    align-items: center;  
+    justify-content: center; 
 }
 
-footer .social {
+footer .social-icons {
     display: flex;
     justify-content: space-around;
     align-items: center;  
 }
 
-footer .social-icons {
+footer .social-icons p {
     display: flex;
     justify-content: center;
     align-items: center;  
@@ -152,15 +148,11 @@ footer .social-icons {
 .hero-area {
     display: flex;
     justify-content: center;
-    align-items: center; 
     flex-flow: row wrap;
 }
 
-.hero-area h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-}
+/*Aside*/
+
  aside {
     display: flex;
     justify-content: center;
@@ -168,14 +160,11 @@ footer .social-icons {
     flex-flow: row wrap;
 }
 
- .content-wrapper {
-    
-}
+/*Features*/
 
  .features {
     display: flex;
-    justify-content: center;
-    align-items: center;  
+    justify-content: center;  
     flex-flow: row wrap;
 }
 
@@ -186,12 +175,17 @@ footer .social-icons {
     flex-flow: row wrap;
 }
 
+/*Reviews*/
+
  .reviews {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-flow: row wrap;
 }
+
+/*==========================================================
+About Page
+=========================================================*/
 
 .mission {
     display: flex;
@@ -206,6 +200,9 @@ footer .social-icons {
     align-items: center;  
     flex-flow: row wrap;
 }
+/*==========================================================
+FAQ Page
+=========================================================*/
 
 .faq {
     display: flex;
@@ -221,13 +218,7 @@ footer .social-icons {
     flex-flow: row wrap;
     
 }
-/* Footer */
 
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
