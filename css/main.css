@@ -107,16 +107,20 @@ header, footer {
     flex-flow: row wrap;
 }
 
+header {
+    padding: 15px, 0;
+}
 
 header .content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center; 
     flex-flow: row wrap;
+    margin: 0;
 }
 
-header figure {
-    
+.header-divider {
+    width: 90%;
 }
 
 header nav {
@@ -124,11 +128,18 @@ header nav {
     justify-content: space-around;
     align-items: center; 
     flex-flow: row wrap;
+    width: 60%;
 }
 
 header nav ul {
     display: flex;
     justify-content: center; 
+    width: 50%;
+}
+
+footer .content-wrapper {
+    width: 55%;
+    margin: 50px 0;
 }
 
 footer .social-icons {
@@ -143,8 +154,16 @@ footer .social-icons p {
     align-items: center;  
 }
 
+footer p {
+    margin 0;
+}
+
 /*----------------Mobile Styles - Home --------------*/
 
+.content-wrapper {
+    width: 90%;
+    padding: 15px 20px 20px 5px;
+}
 .hero-area {
     display: flex;
     justify-content: center;
@@ -168,6 +187,14 @@ footer .social-icons p {
     flex-flow: row wrap;
 }
 
+.features article {
+    width: 55%;
+}
+
+features p {
+    margin: 0;
+}
+
 .features .features-items {
     display: flex;
     justify-content: center;
@@ -181,6 +208,10 @@ footer .social-icons p {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+}
+
+.reviews h3 {
+    width:80%;
 }
 
 /*==========================================================
