@@ -107,6 +107,7 @@ body {
   font-size: 1em;
   font-family: 'Open Sans', sans-serif;
   text-align: left;
+  color: #e2e3ed;
 }
  
 ul, 
@@ -160,10 +161,12 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+background: #202322;
 }
 
 header {
   padding: 15px 0;
+  background: #202322;
 }
 
 header .content-wrapper {
@@ -208,6 +211,7 @@ footer {
 
 footer p {
   margin: 0;
+  background: #202322;
 }
 
 footer .content-wrapper {
@@ -243,7 +247,10 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-    background: url(../img/hero3.png) center no-repeat #333;
+  background: url(../img/hero3.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
 }
 
 /* Aside */
@@ -253,6 +260,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+   background: #527158;
 }
 
 /* Features */
@@ -290,6 +298,7 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: #2a423a;
 }
 
 .reviews h2 {
@@ -359,6 +368,7 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background: #527158;
 }
 
 .faq .content-wrapper {
@@ -534,9 +544,17 @@ input[type=button] {
     display: flex;
     justify-content: space-between;
   }
+    .reviews h2 {
+    width: 85%;
+  }
 
-  .reviews article div {
+  .reviews artcile figure
+ .reviews article div {
     width: 49%;
+  }
+    .reviews h3 {
+    width: 75%;
+    margin: 0;
   }
 
   /* Footer */
